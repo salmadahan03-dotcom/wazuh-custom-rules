@@ -77,10 +77,13 @@ Les 3 échecs isolés (niveau 5) ne déclenchent aucune action particulière ; l
 
 ## Captures d'écran
 
-[À AJOUTER dans `docs/` : agent actif dans le tableau de bord, alerte 100020 dans Threat Hunting avec le badge MITRE T1110, terminal Kali avec les tentatives SSH refusées]
+**Tentative d'attaque depuis Kali (3 échecs SSH) :**
 
-![Agent actif](docs/agent-actif.png)
-![Alerte brute force MITRE T1110](docs/alerte-100020-mitre.png)
+![Attaque SSH depuis Kali](attaque-ssh-kali.png)
+
+**Alerte détectée dans Wazuh, niveau 12, technique MITRE Brute Force :**
+
+![Alerte brute force MITRE T1110](alerte-100020-mitre.png)
 
 ## Ce que j'ai appris
 
